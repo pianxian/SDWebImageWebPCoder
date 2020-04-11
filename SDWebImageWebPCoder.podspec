@@ -28,6 +28,6 @@ This is a SDWebImage coder plugin to support WebP image.
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
   }
   s.dependency 'SDWebImage/Core', '~> 5.7'
-  s.dependency 'libwebp',:git => 'https://github.com/webmproject/libwebp.git'
+  s.dependency 'libwebp' :git => 'https://github.com/webmproject/libwebp.git'
   
 end
